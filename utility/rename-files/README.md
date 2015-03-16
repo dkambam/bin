@@ -1,8 +1,8 @@
-###Overview
+### Overview
 rename folder contents recursively:
 - replace spaces with a dash
 
-### features
+### Features
 - handle both folders & files
 
 ### Todo
