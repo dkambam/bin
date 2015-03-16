@@ -11,13 +11,7 @@ constructed from
 - [bash replace spaces in list.txt with \\][replace-spaces]
 
 ### Inspiration
-wanted to open files by combining ls and pick [pick] as follows
-````
-file . | pick | xargs open
-````
- But it did not work with folders with spaces in them.
-
-### Complete working command
+To open file / folder using [pick] as follows
  ```
  find . | awk '{gsub(" ","\\ ")}1' | pick | xargs open
  ```
